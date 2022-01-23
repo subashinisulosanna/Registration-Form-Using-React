@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(4, 4, 113);
+}
+h1{
+    text-align: center;
+}
+.signup{
+    background-color: rgb(22, 1, 35);
+    color: aliceblue;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 100px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+input[type=text],input[type=password]{
+    width: 100%;
+    box-sizing: border-box;
+    border: 20px;
+    padding: 12px 10px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+input[type=submit]{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: azure;
+    font-weight: bold;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 1s;
+}
+input[type=submit]:hover
+{
+    opacity: 2;
+    background-color: rgb(24, 191, 216);
+}
+span{
+    font-size: 10px;
+    color:red;
+}
